@@ -22,11 +22,16 @@ pod "ForceTouchable"
 ## Usage
 
 To use ForceTouchable on your UIViewControllers all you have to do is implement the ForceTouchable protocol.
-Most methods are already implemented in case your ForceTouchable implementation is a UIViewController, all you need to implement is `forceTouchPreviewForLocation(CGPoint)`.
+Most methods are already implemented in case your ForceTouchable implementation is a UIViewController, all you need to implement is `forceTouchPreviewForLocation(CGPoint)` and call `setupForceTouch()` on your `viewDidAppear` method.
 
 ```swift
 // MARK: ForceTouchable
 extension ViewController: ForceTouchable {
+
+  override func viewDidAppear(animated: Bool) {
+    super.viewDidAppear(animated)
+    setupForceTouch()
+  }
 
   func forceTouchPreviewForLocation(location: CGPoint) -> ForceTouchPreview? {
     guard let indexPath = tableView.indexPathForRowAtPoint(location),

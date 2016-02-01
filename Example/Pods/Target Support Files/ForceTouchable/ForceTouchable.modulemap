@@ -1,0 +1,6 @@
+framework module ForceTouchable {
+  umbrella header "ForceTouchable-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_ForceTouchable_Example {
+  umbrella header "Pods-ForceTouchable_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

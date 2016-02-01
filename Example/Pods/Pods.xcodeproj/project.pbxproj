@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07136A7BFBD4336B9A5825E11761247A /* ForceTouchable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4B0262A018E3086DDE1D351528EDAF25 /* ForceTouchable.bundle */; };
+		1F76D6B85596973425AF12978D3973CE /* Pods-ForceTouchable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6180AFAF7E6F68C0D9A729C60B85CC57 /* Pods-ForceTouchable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		276485A8F905CEB27DE0D0E24982205E /* Pods-ForceTouchable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6B7F3FA2576CB94A3466463138A4FB /* Pods-ForceTouchable_Example-dummy.m */; };
+		39330DDBD2036D8F8461A9BD0DCF74E1 /* Pods-ForceTouchable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81500F61BA9EF5BA2CD31686A8431B6E /* Pods-ForceTouchable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		478EB496F104F75CD61FEEACC582351B /* ForceTouchable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D71E6AE9203111F9CBEEDE13F6FB06 /* ForceTouchable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59655DD06ED03D3D1BDFC779DFE6E457 /* ForceTouchable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12395693632EF10DFD3BA57DD396888B /* ForceTouchable-dummy.m */; };
+		5F155E7952E27A95BB2B2AD710583A8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		AB08F1D75A9E3A1AF7735BB3D4EF0547 /* ForceTouchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE5118D91D674851BE71604A8F96EAC /* ForceTouchable.swift */; };
+		C18D8D6A0E7F4B2DEA5DF4A20BBEBA2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E94B1415D6F8A1D202518F580D7969FC /* Pods-ForceTouchable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62445D7E2A4EAD1437B146C7BD73641A /* Pods-ForceTouchable_Tests-dummy.m */; };
+		F0C7A67B4F87FABDA1D9E5344AC9E020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CB03F0C91E3E698CEAF1FEA48699C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 548908698EDFE37AE01E25C27A4205E4;
+			remoteInfo = ForceTouchable;
+		};
+		A9524818C846B27B0A8D3EE704A3D357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561DEB06098F4995A9E7433FD954BE0B;
+			remoteInfo = "ForceTouchable-ForceTouchable";
+		};
+		D7813A6BD95C83CF63BB8AC0A0670BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 548908698EDFE37AE01E25C27A4205E4;
+			remoteInfo = ForceTouchable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12395693632EF10DFD3BA57DD396888B /* ForceTouchable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ForceTouchable-dummy.m"; sourceTree = "<group>"; };
+		2BFEEEC4271F78591CAB31B2AE604FD2 /* Pods-ForceTouchable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ForceTouchable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		403C2457C0E1FFF6FBEDB9B473BDB384 /* Pods_ForceTouchable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForceTouchable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C7551C8212D362D0B8EB6ECC130E38 /* Pods-ForceTouchable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ForceTouchable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AA57E02C893078E95AF62A3C77BA39B /* Pods-ForceTouchable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForceTouchable_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4B0262A018E3086DDE1D351528EDAF25 /* ForceTouchable.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchable.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D16837437DED2747EA156DBF0922837 /* Pods-ForceTouchable_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForceTouchable_Example-resources.sh"; sourceTree = "<group>"; };
+		4E088AE68306BF68EE4953AA282F0D6E /* Pods-ForceTouchable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForceTouchable_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5FF3FE1A2347A10EA60CF83A0C8417CE /* Pods_ForceTouchable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForceTouchable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6180AFAF7E6F68C0D9A729C60B85CC57 /* Pods-ForceTouchable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ForceTouchable_Example-umbrella.h"; sourceTree = "<group>"; };
+		62445D7E2A4EAD1437B146C7BD73641A /* Pods-ForceTouchable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ForceTouchable_Tests-dummy.m"; sourceTree = "<group>"; };
+		6EE5118D91D674851BE71604A8F96EAC /* ForceTouchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ForceTouchable.swift; sourceTree = "<group>"; };
+		709A3F31F54DDF4D28D3832EAA2D0BA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7260630F81598CC3C7336AB5DCA5C75A /* Pods-ForceTouchable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ForceTouchable_Tests.modulemap"; sourceTree = "<group>"; };
+		7B0F4029C65C8652D5CD220C6DBD05DB /* ForceTouchable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ForceTouchable.xcconfig; sourceTree = "<group>"; };
+		7C6B7F3FA2576CB94A3466463138A4FB /* Pods-ForceTouchable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ForceTouchable_Example-dummy.m"; sourceTree = "<group>"; };
+		7E146212450EA335E0BC41859B382F3D /* ForceTouchable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ForceTouchable-prefix.pch"; sourceTree = "<group>"; };
+		81500F61BA9EF5BA2CD31686A8431B6E /* Pods-ForceTouchable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ForceTouchable_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8A6B5D72421C0C59ED8C56769DE3CED3 /* ForceTouchable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ForceTouchable.modulemap; sourceTree = "<group>"; };
+		962624EDFBE9561876437D25DCD3195F /* ForceTouchable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ForceTouchable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAF7EDBF8FF4F9BEAEA3A13CEDCA56F /* Pods-ForceTouchable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForceTouchable_Tests-resources.sh"; sourceTree = "<group>"; };
+		A63463CF8BC882F107E1102136A67274 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADFBD97CC5E7D856E9C6E84C218360F5 /* Pods-ForceTouchable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ForceTouchable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B280F1006D71938C849C7934EF3BF4D7 /* Pods-ForceTouchable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ForceTouchable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC7AD020DDCA296D29D822ABA9142423 /* Pods-ForceTouchable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForceTouchable_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CF8DDDA3DE8695E334420FF0C55AFDC5 /* Pods-ForceTouchable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForceTouchable_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D6C41AAF6B615D812ABF678A30C64814 /* Pods-ForceTouchable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ForceTouchable_Example.modulemap"; sourceTree = "<group>"; };
+		E278624D8F9803E27CD815F22CF8BB78 /* Pods-ForceTouchable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForceTouchable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9D71E6AE9203111F9CBEEDE13F6FB06 /* ForceTouchable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ForceTouchable-umbrella.h"; sourceTree = "<group>"; };
+		EB274728A1E6EF7A015EC30D90FB9E1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0EDDB56D57783C85443757452C08EB2 /* Pods-ForceTouchable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForceTouchable_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F436C15F31F177E8BD5B6A18F817188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72ADBA29786726EACB0A5F10104AAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C7A67B4F87FABDA1D9E5344AC9E020 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFC4303165AACDB344C0827AEF92718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F155E7952E27A95BB2B2AD710583A8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A1895A9A8CEC243DA8B19A1456A660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18D8D6A0E7F4B2DEA5DF4A20BBEBA2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD822DC55DBD6C92128F2DEA8B2F0EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B0262A018E3086DDE1D351528EDAF25 /* ForceTouchable.bundle */,
+				962624EDFBE9561876437D25DCD3195F /* ForceTouchable.framework */,
+				403C2457C0E1FFF6FBEDB9B473BDB384 /* Pods_ForceTouchable_Example.framework */,
+				5FF3FE1A2347A10EA60CF83A0C8417CE /* Pods_ForceTouchable_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		254AD6569E12DAAB319A0F7B3D3C8873 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F37BEBC85463A973954741AB230B12B /* Pods-ForceTouchable_Example */,
+				D53DBED59C6102EAD7FA8A85281E7FAF /* Pods-ForceTouchable_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A4F752649924B5F75BD0276C5763AD9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E00814F8CD782D71E2522964E472296C /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				DF2ED2D093BD9039E1910EB55D38FFC9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0CD822DC55DBD6C92128F2DEA8B2F0EB /* Products */,
+				254AD6569E12DAAB319A0F7B3D3C8873 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CDCAF3FB033387D48271EF347DEEA3E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A6B5D72421C0C59ED8C56769DE3CED3 /* ForceTouchable.modulemap */,
+				7B0F4029C65C8652D5CD220C6DBD05DB /* ForceTouchable.xcconfig */,
+				12395693632EF10DFD3BA57DD396888B /* ForceTouchable-dummy.m */,
+				7E146212450EA335E0BC41859B382F3D /* ForceTouchable-prefix.pch */,
+				E9D71E6AE9203111F9CBEEDE13F6FB06 /* ForceTouchable-umbrella.h */,
+				A63463CF8BC882F107E1102136A67274 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ForceTouchable";
+			sourceTree = "<group>";
+		};
+		9F37BEBC85463A973954741AB230B12B /* Pods-ForceTouchable_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EB274728A1E6EF7A015EC30D90FB9E1B /* Info.plist */,
+				D6C41AAF6B615D812ABF678A30C64814 /* Pods-ForceTouchable_Example.modulemap */,
+				42C7551C8212D362D0B8EB6ECC130E38 /* Pods-ForceTouchable_Example-acknowledgements.markdown */,
+				B280F1006D71938C849C7934EF3BF4D7 /* Pods-ForceTouchable_Example-acknowledgements.plist */,
+				7C6B7F3FA2576CB94A3466463138A4FB /* Pods-ForceTouchable_Example-dummy.m */,
+				4E088AE68306BF68EE4953AA282F0D6E /* Pods-ForceTouchable_Example-frameworks.sh */,
+				4D16837437DED2747EA156DBF0922837 /* Pods-ForceTouchable_Example-resources.sh */,
+				6180AFAF7E6F68C0D9A729C60B85CC57 /* Pods-ForceTouchable_Example-umbrella.h */,
+				CF8DDDA3DE8695E334420FF0C55AFDC5 /* Pods-ForceTouchable_Example.debug.xcconfig */,
+				4AA57E02C893078E95AF62A3C77BA39B /* Pods-ForceTouchable_Example.release.xcconfig */,
+			);
+			name = "Pods-ForceTouchable_Example";
+			path = "Target Support Files/Pods-ForceTouchable_Example";
+			sourceTree = "<group>";
+		};
+		A1E87E992873ACB3E3DB68BFD7F739F2 /* ForceTouchable */ = {
+			isa = PBXGroup;
+			children = (
+				3A4F752649924B5F75BD0276C5763AD9 /* Pod */,
+				8CDCAF3FB033387D48271EF347DEEA3E /* Support Files */,
+			);
+			name = ForceTouchable;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D53DBED59C6102EAD7FA8A85281E7FAF /* Pods-ForceTouchable_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				709A3F31F54DDF4D28D3832EAA2D0BA6 /* Info.plist */,
+				7260630F81598CC3C7336AB5DCA5C75A /* Pods-ForceTouchable_Tests.modulemap */,
+				2BFEEEC4271F78591CAB31B2AE604FD2 /* Pods-ForceTouchable_Tests-acknowledgements.markdown */,
+				ADFBD97CC5E7D856E9C6E84C218360F5 /* Pods-ForceTouchable_Tests-acknowledgements.plist */,
+				62445D7E2A4EAD1437B146C7BD73641A /* Pods-ForceTouchable_Tests-dummy.m */,
+				CC7AD020DDCA296D29D822ABA9142423 /* Pods-ForceTouchable_Tests-frameworks.sh */,
+				9DAF7EDBF8FF4F9BEAEA3A13CEDCA56F /* Pods-ForceTouchable_Tests-resources.sh */,
+				81500F61BA9EF5BA2CD31686A8431B6E /* Pods-ForceTouchable_Tests-umbrella.h */,
+				E278624D8F9803E27CD815F22CF8BB78 /* Pods-ForceTouchable_Tests.debug.xcconfig */,
+				F0EDDB56D57783C85443757452C08EB2 /* Pods-ForceTouchable_Tests.release.xcconfig */,
+			);
+			name = "Pods-ForceTouchable_Tests";
+			path = "Target Support Files/Pods-ForceTouchable_Tests";
+			sourceTree = "<group>";
+		};
+		DF2ED2D093BD9039E1910EB55D38FFC9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1E87E992873ACB3E3DB68BFD7F739F2 /* ForceTouchable */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E00814F8CD782D71E2522964E472296C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6EE5118D91D674851BE71604A8F96EAC /* ForceTouchable.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28DB231D92364BE3B9E4B4C5DC17B31E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39330DDBD2036D8F8461A9BD0DCF74E1 /* Pods-ForceTouchable_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64563C37A22246B03A37E6BA4B013FFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478EB496F104F75CD61FEEACC582351B /* ForceTouchable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B197B8CCD50CB80994B3307D9E11D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F76D6B85596973425AF12978D3973CE /* Pods-ForceTouchable_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C5B89219E456019DDCFE38C929DE127 /* Pods-ForceTouchable_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E10239D59AA1053F0AFC374F492168B /* Build configuration list for PBXNativeTarget "Pods-ForceTouchable_Example" */;
+			buildPhases = (
+				160F9B335B05D8D747894305985DE1F9 /* Sources */,
+				A72ADBA29786726EACB0A5F10104AAB0 /* Frameworks */,
+				FB4B197B8CCD50CB80994B3307D9E11D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				926B9A2922C883E682D479D298683A8D /* PBXTargetDependency */,
+			);
+			name = "Pods-ForceTouchable_Example";
+			productName = "Pods-ForceTouchable_Example";
+			productReference = 403C2457C0E1FFF6FBEDB9B473BDB384 /* Pods_ForceTouchable_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1FB2B7B2A82634C9B7DEB41DA8701783 /* Pods-ForceTouchable_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DCAEEE85FFA2BAD0D4E6C10828761F1 /* Build configuration list for PBXNativeTarget "Pods-ForceTouchable_Tests" */;
+			buildPhases = (
+				14F6A7009DB1FDA540D8A4FEBF0470C8 /* Sources */,
+				F8A1895A9A8CEC243DA8B19A1456A660 /* Frameworks */,
+				28DB231D92364BE3B9E4B4C5DC17B31E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				990690A2C1899A19290BD9E2FB436FE2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ForceTouchable_Tests";
+			productName = "Pods-ForceTouchable_Tests";
+			productReference = 5FF3FE1A2347A10EA60CF83A0C8417CE /* Pods_ForceTouchable_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		548908698EDFE37AE01E25C27A4205E4 /* ForceTouchable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE82EE0547F0864EF9934B529C627903 /* Build configuration list for PBXNativeTarget "ForceTouchable" */;
+			buildPhases = (
+				71E7C6307EEFFB8CF4FBC5504B1E9CD7 /* Sources */,
+				DAFC4303165AACDB344C0827AEF92718 /* Frameworks */,
+				2AF3EAFE5E4F48A6E1278366EA193064 /* Resources */,
+				64563C37A22246B03A37E6BA4B013FFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60EE2785748D95A0F888A06DD59F2A3A /* PBXTargetDependency */,
+			);
+			name = ForceTouchable;
+			productName = ForceTouchable;
+			productReference = 962624EDFBE9561876437D25DCD3195F /* ForceTouchable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		561DEB06098F4995A9E7433FD954BE0B /* ForceTouchable-ForceTouchable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94D880E5760095F992A5B8C63541433 /* Build configuration list for PBXNativeTarget "ForceTouchable-ForceTouchable" */;
+			buildPhases = (
+				F11A0D51470674E961472E2ECDF9C4B2 /* Sources */,
+				3F436C15F31F177E8BD5B6A18F817188 /* Frameworks */,
+				569694BB8D0736FD735F64E81E9C602D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ForceTouchable-ForceTouchable";
+			productName = "ForceTouchable-ForceTouchable";
+			productReference = 4B0262A018E3086DDE1D351528EDAF25 /* ForceTouchable.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0CD822DC55DBD6C92128F2DEA8B2F0EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				548908698EDFE37AE01E25C27A4205E4 /* ForceTouchable */,
+				561DEB06098F4995A9E7433FD954BE0B /* ForceTouchable-ForceTouchable */,
+				0C5B89219E456019DDCFE38C929DE127 /* Pods-ForceTouchable_Example */,
+				1FB2B7B2A82634C9B7DEB41DA8701783 /* Pods-ForceTouchable_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AF3EAFE5E4F48A6E1278366EA193064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07136A7BFBD4336B9A5825E11761247A /* ForceTouchable.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569694BB8D0736FD735F64E81E9C602D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14F6A7009DB1FDA540D8A4FEBF0470C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94B1415D6F8A1D202518F580D7969FC /* Pods-ForceTouchable_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160F9B335B05D8D747894305985DE1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276485A8F905CEB27DE0D0E24982205E /* Pods-ForceTouchable_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E7C6307EEFFB8CF4FBC5504B1E9CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59655DD06ED03D3D1BDFC779DFE6E457 /* ForceTouchable-dummy.m in Sources */,
+				AB08F1D75A9E3A1AF7735BB3D4EF0547 /* ForceTouchable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11A0D51470674E961472E2ECDF9C4B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60EE2785748D95A0F888A06DD59F2A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ForceTouchable-ForceTouchable";
+			target = 561DEB06098F4995A9E7433FD954BE0B /* ForceTouchable-ForceTouchable */;
+			targetProxy = A9524818C846B27B0A8D3EE704A3D357 /* PBXContainerItemProxy */;
+		};
+		926B9A2922C883E682D479D298683A8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ForceTouchable;
+			target = 548908698EDFE37AE01E25C27A4205E4 /* ForceTouchable */;
+			targetProxy = 7CB03F0C91E3E698CEAF1FEA48699C84 /* PBXContainerItemProxy */;
+		};
+		990690A2C1899A19290BD9E2FB436FE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ForceTouchable;
+			target = 548908698EDFE37AE01E25C27A4205E4 /* ForceTouchable */;
+			targetProxy = D7813A6BD95C83CF63BB8AC0A0670BBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DD3B6631FE49411B54487A2C9BED123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0F4029C65C8652D5CD220C6DBD05DB /* ForceTouchable.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ForceTouchable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		341CC4E73DF55F890277CB52CD6FFDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA57E02C893078E95AF62A3C77BA39B /* Pods-ForceTouchable_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ForceTouchable_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ForceTouchable_Example/Pods-ForceTouchable_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ForceTouchable_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5E551737B5FE6420212BAF1FC075D057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E278624D8F9803E27CD815F22CF8BB78 /* Pods-ForceTouchable_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ForceTouchable_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ForceTouchable_Tests/Pods-ForceTouchable_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ForceTouchable_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86778951D0BAE55844141207C13D6510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0F4029C65C8652D5CD220C6DBD05DB /* ForceTouchable.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ForceTouchable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CE85716E7CDE4611A9581A69D0F58308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF8DDDA3DE8695E334420FF0C55AFDC5 /* Pods-ForceTouchable_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ForceTouchable_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ForceTouchable_Example/Pods-ForceTouchable_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ForceTouchable_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D17FF5A3D2124DBA4FC5EFBBDD8027D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0F4029C65C8652D5CD220C6DBD05DB /* ForceTouchable.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ForceTouchable/ForceTouchable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ForceTouchable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ForceTouchable/ForceTouchable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ForceTouchable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAC55F9ADB1EFF0010A4430B4E00BE44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0EDDB56D57783C85443757452C08EB2 /* Pods-ForceTouchable_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ForceTouchable_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ForceTouchable_Tests/Pods-ForceTouchable_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ForceTouchable_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF2D39FD96075CE2D7DB339AF0529555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0F4029C65C8652D5CD220C6DBD05DB /* ForceTouchable.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ForceTouchable/ForceTouchable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ForceTouchable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ForceTouchable/ForceTouchable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ForceTouchable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DCAEEE85FFA2BAD0D4E6C10828761F1 /* Build configuration list for PBXNativeTarget "Pods-ForceTouchable_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E551737B5FE6420212BAF1FC075D057 /* Debug */,
+				FAC55F9ADB1EFF0010A4430B4E00BE44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E10239D59AA1053F0AFC374F492168B /* Build configuration list for PBXNativeTarget "Pods-ForceTouchable_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE85716E7CDE4611A9581A69D0F58308 /* Debug */,
+				341CC4E73DF55F890277CB52CD6FFDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94D880E5760095F992A5B8C63541433 /* Build configuration list for PBXNativeTarget "ForceTouchable-ForceTouchable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86778951D0BAE55844141207C13D6510 /* Debug */,
+				1DD3B6631FE49411B54487A2C9BED123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE82EE0547F0864EF9934B529C627903 /* Build configuration list for PBXNativeTarget "ForceTouchable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17FF5A3D2124DBA4FC5EFBBDD8027D6 /* Debug */,
+				FF2D39FD96075CE2D7DB339AF0529555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,14 @@
+PODS:
+  - ForceTouchable (1.0)
+
+DEPENDENCIES:
+  - ForceTouchable (from `../`)
+
+EXTERNAL SOURCES:
+  ForceTouchable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ForceTouchable: 59b36046f00ba3e3f4cce7105bfda1975b728f33
+
+COCOAPODS: 0.39.0

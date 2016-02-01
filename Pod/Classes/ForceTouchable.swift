@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 /**
- *  ForceTouchable requires a few functions from UIViewController's class to work, such as 
+ *  ForceTouchable requires a few functions from UIViewController's class to work, such as
  *  a traitCollection, a view and a few functions related to peek and pop.
  */
 public protocol ForceTouchable: AnyObject {
@@ -88,7 +88,11 @@ public class ForceTouchDelegate: NSObject, UIViewControllerPreviewingDelegate {
       }
 
       forceTouchPreview.previewViewController.preferredContentSize = CGSize.zero
-      previewingContext.sourceRect = forceTouchPreview.touchedView.frame
+      guard let touchedSuperView = forceTouchPreview.touchedView.superview else {
+        return nil
+      }
+      previewingContext.sourceRect = touchedSuperView
+        .convertRect(forceTouchPreview.touchedView.frame, toView: forceTouchable.view)
 
       return forceTouchPreview.previewViewController
   }

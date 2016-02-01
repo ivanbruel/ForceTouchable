@@ -3,10 +3,6 @@ use_frameworks!
 
 target 'ForceTouchable_Example', :exclusive => true do
   pod 'ForceTouchable', :path => '../'
-end
-
-target 'ForceTouchable_Tests', :exclusive => true do
-  pod 'ForceTouchable', :path => '../'
 
   
 end

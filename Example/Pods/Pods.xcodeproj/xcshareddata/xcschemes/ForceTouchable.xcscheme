@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'CC0627BB64B73B7472AE98B0'
+               BlueprintIdentifier = '9AC29637B9131B87883A4240'
                BlueprintName = 'ForceTouchable'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ForceTouchable.framework'>
